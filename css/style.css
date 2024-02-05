@@ -167,7 +167,8 @@ header.shadow {
 }
  
 .about-img img {
-  width: 80%;
+  width: 70%;
+  /* height: 90%; */
   border-radius: 0.5rem;
   transition: transform 0.3s ease; 
 }
@@ -213,6 +214,10 @@ header.shadow {
   width: 80%;
   padding-left: 4rem;
   object-position: center;
+  transition: transform 0.3s ease; 
+}
+.skills-img img:hover {
+  transform: scale(1.1);
 }
 .bars-box {
   position: relative;
@@ -314,6 +319,7 @@ header.shadow {
   grid-template-columns: repeat(auto-fit, minmax(280px, auto));
   gap: 1rem;
   margin-top: 2rem;
+  place-items: center;
 }
 .project-img {
   overflow: hidden;
