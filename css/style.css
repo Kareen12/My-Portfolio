@@ -447,6 +447,7 @@ form textarea {
   border: none;
   padding: 0.7rem 1.3rem;
   border-radius: 0.5rem;
+  margin: auto;
 }
 .contact-button:hover {
   color: #0f0c27;
